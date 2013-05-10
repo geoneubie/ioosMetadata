@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>IOOS Data Catalog Monitoring Report</title>
+
+
+	<!-- dataTables JQuery -->
+	<style type="text/css" title="currentStyle">
+		@import "http://www.datatables.net/release-datatables/media/css/demo_page.css";
+		@import "http://www.datatables.net/release-datatables/media/css/demo_table.css";
+	</style>
+
+	<script type="text/javascript" language="javascript" src="http://www.datatables.net/release-datatables//media/js/jquery.js"></script>
+	<script type="text/javascript" language="javascript" src="http://www.datatables.net/release-datatables/media/js/jquery.dataTables.min.js"></script>
+
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function() {
+			$('#example').dataTable( {
+		"bPaginate": false,
+		"bLengthChange": false,
+		"bFilter": false,
+		"bSort": true,
+		"bInfo": true,
+		"bAutoWidth": false } );
+		} );
+	</script>
+
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" >
+<div id="container" align="center">
+<table id="progress" width="900" border="0" cellpadding="0" cellspacing="0" style="text-decoration: none">
+	<tr>
+		<td colspan="3">
+			<img src="http://www.ngdc.noaa.gov/eds/tds/ioos/ioos_image.png" alt="IOOS Banner" border="0" />
+		</td>
+	</tr>
+</table>
+<br>
+<div id="demo" style="width:900px">
+
