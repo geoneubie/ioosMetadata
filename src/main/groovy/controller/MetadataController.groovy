@@ -21,11 +21,13 @@ class MetadataController {
 
 			def svcType = ""
 			def svcStatus = "APPROVED"
-
+			def ioosDir = new File("ioos")
+			if (!ioosDir.exists()) ioosDir.mkdirs()
+			
 			def seriesFile = new File("ioos/ioosSeries.xml");
 			seriesFile.delete()
 
-			def seriesWriter = new SeriesWriter()
+			def seriesWriter = new SeriesWriter(seriesFile)
 			seriesWriter.writeHeader()
 
 			svcType = "SOS"
@@ -70,6 +72,7 @@ class MetadataController {
 
 			// Result variables
 			def linkResults = [:]
+			def seriesFile = new File("ioos/ioosReport.html")
 			def reportWriter = new ReportWriter()
 
 			def result
@@ -117,8 +120,9 @@ class MetadataController {
 
 			def mon = new ServicesMonitor()
 			def me = new MetadataExtractor()
-			def xslUrlStr = "http://www.ngdc.noaa.gov/metadata/published/xsl/SensorObservationService/SOS2ISO_MI.xsl"
-
+			def sosXslUrlStr = "http://www.ngdc.noaa.gov/metadata/published/xsl/SensorObservationService/SOS2ISO_MI.xsl"
+			def wmsXslUrlStr = "http://www.ngdc.noaa.gov/metadata/published/xsl/wms1.3_to_isoSV.xsl"
+			
 			int i = 1
 
 			def links = mon.getSeriesUrlList(seriesUrl)
@@ -135,29 +139,48 @@ class MetadataController {
 			if (links!=null) {
 
 				links.each {
-					def xslSource = me.getStreamSource(xslUrlStr)
+					def sosXslSource = me.getStreamSource(sosXslUrlStr)
+					def wmsXslSource = me.getStreamSource(wmsXslUrlStr)
 					def title = URLDecoder.decode("${it.@'xlink:title'.text()}","UTF-8")
 					def xmlEndPoint = URLDecoder.decode("${it.@'xlink:href'.text()}","UTF-8")
 					//println "endPoint=" + endPoint
-					if (!xmlEndPoint.contains("service=SOS")) {
-						//Add later
-						/*tds.crawl(endPoint, mon.collectionTypeIsNested(seriesUrl))
-						 opdEndPoints = tds.getOpenDAPUrls()
-						 opdEndPoints.each { ds, tdsUrl->
-						 allOdpEndPoints.put(ds, tdsUrl) */ 
-					} else {
+//					if (!xmlEndPoint.contains("service=SOS")) {
+//						//Add later
+//						/*tds.crawl(endPoint, mon.collectionTypeIsNested(seriesUrl))
+//						 opdEndPoints = tds.getOpenDAPUrls()
+//						 opdEndPoints.each { ds, tdsUrl->
+//						 allOdpEndPoints.put(ds, tdsUrl) */
+//					} 
+					if (xmlEndPoint.toUpperCase().contains("SERVICE=SOS")) {
 						def fileLocation = baseLocation + "/" + title + "_SOS_" + i + ".xml"
-						println "print xslSource: " + xslSource
+						println "print sosXslSource: " + sosXslSource
 						println ("print xmlEndPoint: " + xmlEndPoint)
 						println ("print location: " + fileLocation)
 						try {
 							//me.download(endPoint, location)
-							me.transform(xslSource, xmlEndPoint, fileLocation)
-							xslSource = null
+							me.transform(sosXslSource, xmlEndPoint, fileLocation)
+							sosXslSource = null
 							FileManipulator.updateGMLNamespace(fileLocation)
 						} catch (e) {
 							logger.error("Error in transform for xmlEndPoint: " + xmlEndPoint + "," + e.getMessage())
-							logger.error("Using xslSource: " + xslSource)
+							logger.error("Using xslSource: " + sosXslSource)
+						}
+
+						i++
+					}
+					if (xmlEndPoint.toUpperCase().contains("SERVICE=WMS")) {
+						def fileLocation = baseLocation + "/" + title + "_WMS_" + i + ".xml"
+						println "print wmsXslSource: " + wmsXslSource
+						println ("print xmlEndPoint: " + xmlEndPoint)
+						println ("print location: " + fileLocation)
+						try {
+							//me.download(endPoint, location)
+							me.transform(wmsXslSource, xmlEndPoint, fileLocation)
+							wmsXslSource = null
+							FileManipulator.updateGMLNamespace(fileLocation)
+						} catch (e) {
+							logger.error("Error in transform for xmlEndPoint: " + xmlEndPoint + "," + e.getMessage())
+							logger.error("Using xslSource: " + wmsXslSource)
 						}
 
 						i++

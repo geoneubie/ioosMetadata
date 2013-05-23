@@ -42,7 +42,7 @@ class MetadataExtractor {
 			StreamSource xmlSource = new StreamSource(is);
 			def transformer = factory.newTransformer(xslSource)
 			transformer.transform(xmlSource, new StreamResult(new File(location)))
-			//is.close()
+
 			xmlSource.close()
 			xslSource.close()
 		} catch (e) {

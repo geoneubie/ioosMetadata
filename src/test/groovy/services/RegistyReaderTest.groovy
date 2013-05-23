@@ -10,11 +10,10 @@ import services.RegistryReader
 
 class RegistyReaderTest {
 	def logger
-	// '20' is part of the encoded request and should be removed from tableId, update to request also needed in RegistryReader
 	def tableId = "2111243" //Service Registry tableid for fusiontable
 
 
-	//@Test
+	@Test
 	public void sosReadTest() {
 		logger = Logger.getLogger(RegistyReaderTest.class)
 

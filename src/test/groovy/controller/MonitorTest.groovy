@@ -15,7 +15,8 @@ import util.TdsCrawler;
 class MonitorTest {
 	def logger
 
-	//@Test this is a long test!!!
+	//This is a long test!!!
+	//@Test 
 	public void integrationTest() {
 		try {
 			def seriesUrl = "http://www.ngdc.noaa.gov/metadata/published/NOAA/IOOS/iso_series/xml/ioosSeries.xml"

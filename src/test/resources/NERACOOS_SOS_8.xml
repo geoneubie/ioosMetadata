@@ -1,0 +1,2022 @@
+<gmi:MI_Metadata xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:sos="http://www.opengis.net/sos/1.0" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>Northeastern Regional Association of Coastal Ocean Observing Systems</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:MD_ScopeCode" codeListValue="service">service</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Eric Bridger</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>NERACOOS</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName gco:nilReason="missing" />
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice gco:nilReason="missing" />
+              <gmd:facsimile gco:nilReason="missing" />
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint gco:nilReason="missing" />
+              <gmd:city gco:nilReason="missing" />
+              <gmd:administrativeArea gco:nilReason="missing" />
+              <gmd:postalCode gco:nilReason="missing" />
+              <gmd:country gco:nilReason="missing" />
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>eric@gmri.org</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.neracoos.org/</gmd:URL>
+              </gmd:linkage>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+          <gmd:hoursOfService gco:nilReason="missing" />
+          <gmd:contactInstructions gco:nilReason="missing" />
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp gco:nilReason="unknown" />
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:identificationInfo>
+    <srv:SV_ServiceIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Northeastern Regional Association of Coastal Ocean Observing Systems</gco:CharacterString>
+          </gmd:title>
+          <gmd:date gco:nilReason="inapplicable" />
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Eric Bridger</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>NERACOOS</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName gco:nilReason="missing" />
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice gco:nilReason="missing" />
+                      <gmd:facsimile gco:nilReason="missing" />
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint gco:nilReason="missing" />
+                      <gmd:city gco:nilReason="missing" />
+                      <gmd:administrativeArea gco:nilReason="missing" />
+                      <gmd:postalCode gco:nilReason="missing" />
+                      <gmd:country gco:nilReason="missing" />
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>eric@gmri.org</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://www.neracoos.org/</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                  <gmd:hoursOfService gco:nilReason="missing" />
+                  <gmd:contactInstructions gco:nilReason="missing" />
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract gco:nilReason="missing" />
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Eric Bridger</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>NERACOOS</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName gco:nilReason="missing" />
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice gco:nilReason="missing" />
+                  <gmd:facsimile gco:nilReason="missing" />
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint gco:nilReason="missing" />
+                  <gmd:city gco:nilReason="missing" />
+                  <gmd:administrativeArea gco:nilReason="missing" />
+                  <gmd:postalCode gco:nilReason="missing" />
+                  <gmd:country gco:nilReason="missing" />
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>eric@gmri.org</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://www.neracoos.org/</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+              <gmd:hoursOfService gco:nilReason="missing" />
+              <gmd:contactInstructions gco:nilReason="missing" />
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>SOS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NERACOOS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>OCEANOGRAPHY</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Ocean Observations</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Gulf of Maine</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Long Island Sound</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Narragansett Bay</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Cape Cod</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Boston Harbor</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Buzzards Bay</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Weather</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Ocean Currents</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Water Temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Salinity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Winds</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Waves</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Ocean Color</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>GoMOOS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>LISICOS</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Univ. of New Hampshire</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>MVCO</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Ed_PAR</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>air_temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>chlorophyll</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>direction_of_sea_water_velocity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>dissolved_oxygen</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>dominant_wave_period</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>oxygen_saturation</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>percent_oxygen_saturation</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>sea_level_pressure</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>sea_water_density</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>sea_water_electrical_conductivity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>sea_water_salinity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>sea_water_speed</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>sea_water_temperature</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>significant_height_of_wind_and_swell_waves</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>surface_partial_pressure_of_carbon_dioxide_in_air</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>surface_partial_pressure_of_carbon_dioxide_in_sea_water</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>turbidity</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>visibility_in_air</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>wind_from_direction</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>wind_gust</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>wind_speed</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation uuid="358e4ad4-66ac-11df-a08a-0800200c9a66">
+              <gmd:title>
+                <gco:CharacterString>NetCDF Climate Forecast Metadata Convention Standard Names</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown" />
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>NetCDF Climate and Forecast (CF) Metadata Convention Standard Names Committee</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://cf-pcmdi.llnl.gov/documents</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:name>
+                            <gco:CharacterString>CF Standard Names Home Page</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>Description of the CF Standard Names</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <srv:serviceType>
+        <gco:LocalName codeSpace="http://www.opengis.net">OGC:SOS</gco:LocalName>
+      </srv:serviceType>
+      <srv:serviceTypeVersion>
+        <gco:CharacterString>1.0.0</gco:CharacterString>
+      </srv:serviceTypeVersion>
+      <srv:restrictions>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:accessConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>NONE</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </srv:restrictions>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>44022</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-73.73</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-73.73</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>40.88</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>40.88</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e452">
+                  <gml:beginPosition>2009-07-22T18:42:04.14249Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>44039</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-72.655</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-72.655</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>41.138</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>41.138</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e506">
+                  <gml:beginPosition>2009-07-22T18:42:10.401074Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>44040</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-73.58</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-73.58</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>40.956</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>40.956</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e560">
+                  <gml:beginPosition>2009-07-22T18:42:16.650525Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>44060</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-72.067</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-72.067</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>41.263</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>41.263</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e616">
+                  <gml:beginPosition>2009-07-22T18:42:23.100212Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>44098</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-70.169</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-70.169</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>42.801</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>42.801</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e667">
+                  <gml:beginPosition>2008-10-01T13:18:16.755045Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>A01</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-70.5655</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-70.5655</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>42.5232</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>42.5232</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e721">
+                  <gml:beginPosition>2001-07-10T03:00:00Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>ALL_PLATFORMS</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-67.25</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-63.0</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>42.75</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>46.0</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e787">
+                  <gml:beginPosition>2000-07-10T20:00:00Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>B01</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-70.4268765897832</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-70.4268765897832</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>43.1796608623276</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>43.1796608623276</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e856">
+                  <gml:beginPosition>2001-07-09T12:52:00Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>CDIP154</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-71.1217</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-71.1217</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>40.981</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>40.981</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e916">
+                  <gml:beginPosition>2009-09-18T19:36:55.173933Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>CDIP176</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-63.4082</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-63.4082</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>44.5001</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>44.5001</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e964">
+                  <gml:beginPosition>2011-09-22T14:57:37.318088Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>CML</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-70.709346</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-70.709346</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>43.072001</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>43.072001</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e1013">
+                  <gml:beginPosition>2010-08-20T13:34:35.032598Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>CO2</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-70.542</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-70.542</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>43.024</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>43.024</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e1070">
+                  <gml:beginPosition>2009-09-17T13:02:39.744953Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>D02</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-69.9877</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-69.9877</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>43.7628</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>43.7628</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e1128">
+                  <gml:beginPosition>2006-12-14T21:30:00Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>E01</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-69.3578</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-69.3578</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>43.7148</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>43.7148</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e1193">
+                  <gml:beginPosition>2001-07-09T12:00:00Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>E02</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-69.319580078125</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-69.319580078125</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>43.7063484191895</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>43.7063484191895</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e1253">
+                  <gml:beginPosition>2010-08-11T14:00:00Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>F01</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-68.9982</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-68.9982</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>44.0555</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>44.0555</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e1313">
+                  <gml:beginPosition>2000-07-10T20:00:00Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>F02</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-68.8308</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-68.8308</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>44.3878</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>44.3878</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e1373">
+                  <gml:beginPosition>2012-02-22T17:20:00Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>GREAT_BAY</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-70.8678</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-70.8678</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>43.0715</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>43.0715</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e1430">
+                  <gml:beginPosition>2009-08-19T18:41:26.435278Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>I01</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-68.1090882815856</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-68.1090882815856</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>44.105949650925</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>44.105949650925</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e1486">
+                  <gml:beginPosition>2001-07-27T07:34:00Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>LDLC3</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-72.077</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-72.077</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>41.305</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>41.305</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e1546">
+                  <gml:beginPosition>2009-07-22T18:42:27.425292Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>M01</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-67.8798</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-67.8798</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>43.4907</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>43.4907</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e1596">
+                  <gml:beginPosition>2001-07-15T16:00:00Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>MDS02</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-71.5733306884766</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-71.5733306884766</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>41.0993072509766</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>41.0993072509766</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e1657">
+                  <gml:beginPosition>2009-11-05T17:10:00Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>N01</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-65.907</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-65.907</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>42.3303</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>42.3303</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e1716">
+                  <gml:beginPosition>2004-06-03T21:00:00Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>SMB-MO-01</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-54.688</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-54.688</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>46.9813</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>46.9813</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e1776">
+                  <gml:beginPosition>2011-05-03T21:35:41.995807Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>SMB-MO-04</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-54.1317</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-54.1317</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>47.3255</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>47.3255</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e1827">
+                  <gml:beginPosition>2011-05-06T14:26:22.716247Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:extent>
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>SMB-MO-05</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-54.0488</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-54.0488</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>47.7893</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>47.7893</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="d1e1878">
+                  <gml:beginPosition>2011-05-06T14:26:26.973521Z</gml:beginPosition>
+                  <gml:endPosition xmlns:oost="http://www.oostethys.org/schemas/0.1.0/oostethys" xmlns:swe="http://www.opengis.net/swe/1.0.1" indeterminatePosition="now" />
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </srv:extent>
+      <srv:couplingType>
+        <srv:SV_CouplingType codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#srv:SV_CouplingType" codeListValue="tight">tight</srv:SV_CouplingType>
+      </srv:couplingType>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetCapabilities</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP gco:nilReason="unknown" />
+          <srv:parameters>
+            <srv:SV_Parameter>
+              <srv:name>
+                <gco:aName>
+                  <gco:CharacterString>Sections</gco:CharacterString>
+                </gco:aName>
+                <gco:attributeType gco:nilReason="unknown" />
+              </srv:name>
+              <srv:description>
+                <gco:CharacterString>Allowed values: All, Filter_Capabilities</gco:CharacterString>
+              </srv:description>
+              <srv:optionality>
+                <gco:CharacterString>Optional</gco:CharacterString>
+              </srv:optionality>
+              <srv:repeatability>
+                <gco:Boolean>false</gco:Boolean>
+              </srv:repeatability>
+              <srv:valueType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>CharacterString</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </srv:valueType>
+            </srv:SV_Parameter>
+          </srv:parameters>
+          <srv:parameters>
+            <srv:SV_Parameter>
+              <srv:name>
+                <gco:aName>
+                  <gco:CharacterString>service</gco:CharacterString>
+                </gco:aName>
+                <gco:attributeType gco:nilReason="unknown" />
+              </srv:name>
+              <srv:description>
+                <gco:CharacterString>Allowed values: SOS</gco:CharacterString>
+              </srv:description>
+              <srv:optionality>
+                <gco:CharacterString>Optional</gco:CharacterString>
+              </srv:optionality>
+              <srv:repeatability>
+                <gco:Boolean>false</gco:Boolean>
+              </srv:repeatability>
+              <srv:valueType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>CharacterString</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </srv:valueType>
+            </srv:SV_Parameter>
+          </srv:parameters>
+          <srv:parameters>
+            <srv:SV_Parameter>
+              <srv:name>
+                <gco:aName>
+                  <gco:CharacterString>version</gco:CharacterString>
+                </gco:aName>
+                <gco:attributeType gco:nilReason="unknown" />
+              </srv:name>
+              <srv:description>
+                <gco:CharacterString>Allowed values: 1.0.0</gco:CharacterString>
+              </srv:description>
+              <srv:optionality>
+                <gco:CharacterString>Optional</gco:CharacterString>
+              </srv:optionality>
+              <srv:repeatability>
+                <gco:Boolean>false</gco:Boolean>
+              </srv:repeatability>
+              <srv:valueType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>CharacterString</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </srv:valueType>
+            </srv:SV_Parameter>
+          </srv:parameters>
+          <srv:parameters>
+            <srv:SV_Parameter>
+              <srv:name>
+                <gco:aName>
+                  <gco:CharacterString>AcceptVersions</gco:CharacterString>
+                </gco:aName>
+                <gco:attributeType gco:nilReason="unknown" />
+              </srv:name>
+              <srv:description>
+                <gco:CharacterString>Allowed values: 1.0.0</gco:CharacterString>
+              </srv:description>
+              <srv:optionality>
+                <gco:CharacterString>Optional</gco:CharacterString>
+              </srv:optionality>
+              <srv:repeatability>
+                <gco:Boolean>false</gco:Boolean>
+              </srv:repeatability>
+              <srv:valueType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>CharacterString</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </srv:valueType>
+            </srv:SV_Parameter>
+          </srv:parameters>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.neracoos.org/cgi-bin/sos/V1.0/oostethys_sos.cgi?service=SOS&amp;request=GetCapabilities</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>http</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:description>
+                <gco:CharacterString>OGC Sensor Observation Service Capabilities (Post)</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.neracoos.org/cgi-bin/sos/V1.0/oostethys_sos.cgi?service=SOS&amp;request=GetCapabilities</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>http</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:description>
+                <gco:CharacterString>OGC Sensor Observation Service Capabilities (Get)</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>GetObservation</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP gco:nilReason="unknown" />
+          <srv:parameters>
+            <srv:SV_Parameter>
+              <srv:name>
+                <gco:aName>
+                  <gco:CharacterString>offering</gco:CharacterString>
+                </gco:aName>
+                <gco:attributeType gco:nilReason="unknown" />
+              </srv:name>
+              <srv:description>
+                <gco:CharacterString>Allowed values: 44022, 44039, 44040, 44060, 44098, A01, ALL_PLATFORMS, B01, CDIP154, CDIP176, CML, CO2, D02, E01, E02, F01, F02, GREAT_BAY, I01, LDLC3, M01, MDS02, N01, SMB-MO-01, SMB-MO-04, SMB-MO-05</gco:CharacterString>
+              </srv:description>
+              <srv:optionality>
+                <gco:CharacterString>Optional</gco:CharacterString>
+              </srv:optionality>
+              <srv:repeatability>
+                <gco:Boolean>false</gco:Boolean>
+              </srv:repeatability>
+              <srv:valueType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>CharacterString</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </srv:valueType>
+            </srv:SV_Parameter>
+          </srv:parameters>
+          <srv:parameters>
+            <srv:SV_Parameter>
+              <srv:name>
+                <gco:aName>
+                  <gco:CharacterString>observedProperty</gco:CharacterString>
+                </gco:aName>
+                <gco:attributeType gco:nilReason="unknown" />
+              </srv:name>
+              <srv:description>
+                <gco:CharacterString>Allowed values: Ed_PAR, air_temperature, chlorophyll, direction_of_sea_water_velocity, dissolved_oxygen, dominant_wave_period, oxygen_saturation, percent_oxygen_saturation, sea_level_pressure, sea_water_density, sea_water_electrical_conductivity, sea_water_salinity, sea_water_speed, sea_water_temperature, significant_height_of_wind_and_swell_waves, surface_partial_pressure_of_carbon_dioxide_in_air, surface_partial_pressure_of_carbon_dioxide_in_sea_water, turbidity, visibility_in_air, wind_from_direction, wind_gust, wind_speed</gco:CharacterString>
+              </srv:description>
+              <srv:optionality>
+                <gco:CharacterString>Optional</gco:CharacterString>
+              </srv:optionality>
+              <srv:repeatability>
+                <gco:Boolean>false</gco:Boolean>
+              </srv:repeatability>
+              <srv:valueType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>CharacterString</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </srv:valueType>
+            </srv:SV_Parameter>
+          </srv:parameters>
+          <srv:parameters>
+            <srv:SV_Parameter>
+              <srv:name>
+                <gco:aName>
+                  <gco:CharacterString>eventTime</gco:CharacterString>
+                </gco:aName>
+                <gco:attributeType gco:nilReason="unknown" />
+              </srv:name>
+              <srv:description>
+                <gco:CharacterString>Allowed values:</gco:CharacterString>
+              </srv:description>
+              <srv:optionality>
+                <gco:CharacterString>Optional</gco:CharacterString>
+              </srv:optionality>
+              <srv:repeatability>
+                <gco:Boolean>false</gco:Boolean>
+              </srv:repeatability>
+              <srv:valueType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>CharacterString</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </srv:valueType>
+            </srv:SV_Parameter>
+          </srv:parameters>
+          <srv:parameters>
+            <srv:SV_Parameter>
+              <srv:name>
+                <gco:aName>
+                  <gco:CharacterString>responseFormat</gco:CharacterString>
+                </gco:aName>
+                <gco:attributeType gco:nilReason="unknown" />
+              </srv:name>
+              <srv:description>
+                <gco:CharacterString>Allowed values: text/xml; subtype="om/1.0.0"</gco:CharacterString>
+              </srv:description>
+              <srv:optionality>
+                <gco:CharacterString>Optional</gco:CharacterString>
+              </srv:optionality>
+              <srv:repeatability>
+                <gco:Boolean>false</gco:Boolean>
+              </srv:repeatability>
+              <srv:valueType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>CharacterString</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </srv:valueType>
+            </srv:SV_Parameter>
+          </srv:parameters>
+          <srv:parameters>
+            <srv:SV_Parameter>
+              <srv:name>
+                <gco:aName>
+                  <gco:CharacterString>resultModel</gco:CharacterString>
+                </gco:aName>
+                <gco:attributeType gco:nilReason="unknown" />
+              </srv:name>
+              <srv:description>
+                <gco:CharacterString>Allowed values: om:Observation</gco:CharacterString>
+              </srv:description>
+              <srv:optionality>
+                <gco:CharacterString>Optional</gco:CharacterString>
+              </srv:optionality>
+              <srv:repeatability>
+                <gco:Boolean>false</gco:Boolean>
+              </srv:repeatability>
+              <srv:valueType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>CharacterString</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </srv:valueType>
+            </srv:SV_Parameter>
+          </srv:parameters>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.neracoos.org/cgi-bin/sos/V1.0/oostethys_sos.cgi</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>http</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:description>
+                <gco:CharacterString>OGC Sensor Observation Service Capabilities (Post)</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.neracoos.org/cgi-bin/sos/V1.0/oostethys_sos.cgi</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>http</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:description>
+                <gco:CharacterString>OGC Sensor Observation Service Capabilities (Get)</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+      <srv:containsOperations>
+        <srv:SV_OperationMetadata>
+          <srv:operationName>
+            <gco:CharacterString>DescribeSensor</gco:CharacterString>
+          </srv:operationName>
+          <srv:DCP gco:nilReason="unknown" />
+          <srv:parameters>
+            <srv:SV_Parameter>
+              <srv:name>
+                <gco:aName>
+                  <gco:CharacterString>procedure</gco:CharacterString>
+                </gco:aName>
+                <gco:attributeType gco:nilReason="unknown" />
+              </srv:name>
+              <srv:description>
+                <gco:CharacterString>Allowed values: urn:ogc:neracoos.org:def:source:mooring:44022, urn:ogc:neracoos.org:def:source:mooring:44039, urn:ogc:neracoos.org:def:source:mooring:44040, urn:ogc:neracoos.org:def:source:mooring:44060, urn:ogc:neracoos.org:def:source:mooring:44098, urn:ogc:neracoos.org:def:source:mooring:A01, urn:ogc:neracoos.org:def:source:mooring:ALL_PLATFORMS, urn:ogc:neracoos.org:def:source:mooring:B01, urn:ogc:neracoos.org:def:source:mooring:CDIP154, urn:ogc:neracoos.org:def:source:mooring:CDIP176, urn:ogc:neracoos.org:def:source:mooring:CML, urn:ogc:neracoos.org:def:source:mooring:CO2, urn:ogc:neracoos.org:def:source:mooring:D02, urn:ogc:neracoos.org:def:source:mooring:E01, urn:ogc:neracoos.org:def:source:mooring:E02, urn:ogc:neracoos.org:def:source:mooring:F01, urn:ogc:neracoos.org:def:source:mooring:F02, urn:ogc:neracoos.org:def:source:mooring:GREAT_BAY, urn:ogc:neracoos.org:def:source:mooring:I01, urn:ogc:neracoos.org:def:source:mooring:LDLC3, urn:ogc:neracoos.org:def:source:mooring:M01, urn:ogc:neracoos.org:def:source:mooring:MDS02, urn:ogc:neracoos.org:def:source:mooring:N01, urn:ogc:neracoos.org:def:source:mooring:SMB-MO-01, urn:ogc:neracoos.org:def:source:mooring:SMB-MO-04, urn:ogc:neracoos.org:def:source:mooring:SMB-MO-05</gco:CharacterString>
+              </srv:description>
+              <srv:optionality>
+                <gco:CharacterString>Optional</gco:CharacterString>
+              </srv:optionality>
+              <srv:repeatability>
+                <gco:Boolean>false</gco:Boolean>
+              </srv:repeatability>
+              <srv:valueType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>CharacterString</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </srv:valueType>
+            </srv:SV_Parameter>
+          </srv:parameters>
+          <srv:parameters>
+            <srv:SV_Parameter>
+              <srv:name>
+                <gco:aName>
+                  <gco:CharacterString>outputFormat</gco:CharacterString>
+                </gco:aName>
+                <gco:attributeType gco:nilReason="unknown" />
+              </srv:name>
+              <srv:description>
+                <gco:CharacterString>Allowed values: text/xml; subtype="sensorML/1.0.1"</gco:CharacterString>
+              </srv:description>
+              <srv:optionality>
+                <gco:CharacterString>Optional</gco:CharacterString>
+              </srv:optionality>
+              <srv:repeatability>
+                <gco:Boolean>false</gco:Boolean>
+              </srv:repeatability>
+              <srv:valueType>
+                <gco:TypeName>
+                  <gco:aName>
+                    <gco:CharacterString>CharacterString</gco:CharacterString>
+                  </gco:aName>
+                </gco:TypeName>
+              </srv:valueType>
+            </srv:SV_Parameter>
+          </srv:parameters>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.neracoos.org/cgi-bin/sos/V1.0/oostethys_sos.cgi</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>http</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:description>
+                <gco:CharacterString>OGC Sensor Observation Service Capabilities (Post)</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+          <srv:connectPoint>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.neracoos.org/cgi-bin/sos/V1.0/oostethys_sos.cgi</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>http</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:description>
+                <gco:CharacterString>OGC Sensor Observation Service Capabilities (Get)</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </srv:connectPoint>
+        </srv:SV_OperationMetadata>
+      </srv:containsOperations>
+    </srv:SV_ServiceIdentification>
+  </gmd:identificationInfo>
+  <gmd:contentInfo>
+    <gmd:MD_CoverageDescription>
+      <gmd:attributeDescription gco:nilReason="unknown" />
+      <gmd:contentType>
+        <gmd:MD_CoverageContentTypeCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:MD_CoverageContentTypeCode" codeListValue="physicalMeasurement">physicalMeasurement</gmd:MD_CoverageContentTypeCode>
+      </gmd:contentType>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:wind_speed" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:wind_speed</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:wind_gust" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:wind_gust</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:wind_from_direction" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:wind_from_direction</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:sea_water_temperature" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:sea_water_temperature</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:sea_water_salinity" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:sea_water_salinity</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:sea_level_pressure" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:sea_level_pressure</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:dissolved_oxygen" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:dissolved_oxygen</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:air_temperature" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:air_temperature</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:significant_height_of_wind_and_swell_waves" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:significant_height_of_wind_and_swell_waves</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:dominant_wave_period" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:dominant_wave_period</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:visibility_in_air" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:visibility_in_air</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:turbidity" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:turbidity</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:sea_water_speed" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:sea_water_speed</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:sea_water_electrical_conductivity" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:sea_water_electrical_conductivity</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:sea_water_density" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:sea_water_density</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:percent_oxygen_saturation" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:percent_oxygen_saturation</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:oxygen_saturation" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:oxygen_saturation</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:direction_of_sea_water_velocity" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:direction_of_sea_water_velocity</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:chlorophyll" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:chlorophyll</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:surface_partial_pressure_of_carbon_dioxide_in_sea_water" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:surface_partial_pressure_of_carbon_dioxide_in_sea_water</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:surface_partial_pressure_of_carbon_dioxide_in_air" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:surface_partial_pressure_of_carbon_dioxide_in_air</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+      <gmd:dimension>
+        <gmd:MD_Band>
+          <gmd:sequenceIdentifier>
+            <gco:MemberName>
+              <gco:aName>
+                <gmx:Anchor xlink:href="urn:ogc:def:phenomenon:mmisw.org:cf:Ed_PAR" xlink:actuate="onRequest">urn:ogc:def:phenomenon:mmisw.org:cf:Ed_PAR</gmx:Anchor>
+              </gco:aName>
+              <gco:attributeType gco:nilReason="unknown" />
+            </gco:MemberName>
+          </gmd:sequenceIdentifier>
+        </gmd:MD_Band>
+      </gmd:dimension>
+    </gmd:MD_CoverageDescription>
+  </gmd:contentInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Eric Bridger</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>NERACOOS</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName gco:nilReason="missing" />
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice gco:nilReason="missing" />
+                      <gmd:facsimile gco:nilReason="missing" />
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint gco:nilReason="missing" />
+                      <gmd:city gco:nilReason="missing" />
+                      <gmd:administrativeArea gco:nilReason="missing" />
+                      <gmd:postalCode gco:nilReason="missing" />
+                      <gmd:country gco:nilReason="missing" />
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>eric@gmri.org</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://www.neracoos.org/</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                  <gmd:hoursOfService gco:nilReason="missing" />
+                  <gmd:contactInstructions gco:nilReason="missing" />
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributorFormat>
+            <gmd:MD_Format>
+              <gmd:name>
+                <gco:CharacterString>OGC:SOS</gco:CharacterString>
+              </gmd:name>
+              <gmd:version>
+                <gco:CharacterString>1.0.0</gco:CharacterString>
+              </gmd:version>
+            </gmd:MD_Format>
+          </gmd:distributorFormat>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://www.neracoos.org/cgi-bin/sos/V1.0/oostethys_sos.cgi?service=SOS&amp;request=GetCapabilities</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>http</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:description>
+                    <gco:CharacterString>OGC Sensor Observation Service Capabilities (Post)</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+          <gmd:distributorTransferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://www.neracoos.org/cgi-bin/sos/V1.0/oostethys_sos.cgi?service=SOS&amp;request=GetCapabilities</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>http</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:description>
+                    <gco:CharacterString>OGC Sensor Observation Service Capabilities (Get)</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="http://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#gmd:CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:distributorTransferOptions>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:metadataMaintenance>
+    <gmd:MD_MaintenanceInformation>
+      <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown" />
+      <gmd:maintenanceNote>
+        <gco:CharacterString>This record was translated from SOS Capabilities using SOS2ISO_MI.xsl Version 2012-09-05</gco:CharacterString>
+      </gmd:maintenanceNote>
+    </gmd:MD_MaintenanceInformation>
+  </gmd:metadataMaintenance>
+</gmi:MI_Metadata>

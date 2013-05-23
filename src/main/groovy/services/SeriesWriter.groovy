@@ -5,10 +5,13 @@ import org.apache.log4j.Logger
 
 class SeriesWriter {
 	def logger
-
+	def seriesFile
+	
+	def SeriesWriter(File seriesFile) {
+		this.seriesFile = seriesFile
+	}
 
 	def writeHeader () {
-		def seriesFile = new File("ioos/ioosSeries.xml")
 		seriesFile.withWriter { out ->
 
 			//Add header
@@ -22,7 +25,7 @@ class SeriesWriter {
 	def boolean publish(Map results, String collectionType) {
 		logger = Logger.getLogger(SeriesWriter.class)
 		logger.info "publish series"
-		def seriesFile = new FileWriter("ioos/ioosSeries.xml",true)
+		def seriesFile = new FileWriter(seriesFile,true)
 		try {
 			seriesFile.withWriter { out ->
 				//Collection
@@ -50,7 +53,7 @@ class SeriesWriter {
 	}
 
 	def writeFooter () {
-		def seriesFile = new FileWriter("ioos/ioosSeries.xml",true)
+		def seriesFile = new FileWriter(seriesFile,true)
 		seriesFile.withWriter { out ->
 
 			//Add header

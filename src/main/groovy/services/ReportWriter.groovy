@@ -1,19 +1,25 @@
 package services
 
+import java.io.File;
 import java.util.Map
 import org.apache.log4j.Logger
 
 class ReportWriter {
 	def logger
-
+	def reportFile
+	
+	def ReportWriter(File reportFile) {
+		this.reportFile = reportFile
+	}
+	
 	def boolean publish(Map results) {
 		logger = Logger.getLogger(ReportWriter.class)
 		logger.info "publish report"
 		try {
 
-			def report = new File("ioos/ioosReport.html")
-			logger.debug(report.absolutePath)
-			report.withWriter { out ->
+			
+			logger.debug(reportFile.absolutePath)
+			reportFile.withWriter { out ->
 
 				//Add header
 				def reportHdrIs = getClass().getResourceAsStream("/ioosCatalogSvcReport_hdr.html")

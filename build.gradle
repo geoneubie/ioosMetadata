@@ -2,12 +2,11 @@ apply plugin: 'groovy'
 
 repositories {
     mavenCentral()
-    mavenRepo url: "http://intranet.ngdc.noaa.gov/m2"
 	mavenRepo url: "http://maven.geotoolkit.org/"
 }
 
 dependencies {
-    groovy group: 'org.codehaus.groovy', name: 'groovy', version: '1.7.5'
+    compile group: 'org.codehaus.groovy', name: 'groovy', version: '1.7.5'
 	compile group: 'edu.ucar', name: 'netcdf', version: '4.2.28'
 	compile group: 'net.sf.saxon', name: 'Saxon-HE', version: '9.4'
 	compile group: 'log4j', name: 'log4j', version: '1.2.16'

@@ -10,7 +10,7 @@ class IsoDsSeriesSlurper {
 		try {
 			def url = new URL(urlStr)
 			def xml = url.text
-			
+			println xml
 			def dsSeries = new XmlSlurper().parseText(xml)
 			dsSeries.declareNamespace(gmd: 'http://www.isotc211.org/2005/gmd/gmd.xsd')
 

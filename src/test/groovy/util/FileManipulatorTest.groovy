@@ -13,10 +13,12 @@ class FileManipulatorTest {
 	@Test
 	public void updateGMLNamespaceTest() {
 		logger = Logger.getLogger(FileManipulatorTest.class)
-
-		def fileLocation = "D:/temp/waf/ioos/NERACOOS_SOS_10.xml"
-		FileManipulator.updateGMLNamespace(fileLocation)
-		def updatedText = new File(fileLocation).text
+		
+		URI uri = this.getClass().getResource("/NERACOOS_SOS_8.xml").toURI();
+		println uri.toString()
+		
+		FileManipulator.updateGMLNamespace(uri)
+		def updatedText = new File(uri).text
 		assertTrue updatedText.contains("xmlns:gml=\"http://www.opengis.net/gml/3.2\"")
 	}
 }

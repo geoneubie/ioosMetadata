@@ -19,11 +19,12 @@ class RegistryIntegrationTest {
 		def tableId = "2111243" //Service Registry tableid for fusiontable
 		def svcType = ""
 		def svcStatus = "APPROVED"
+		def filePath = this.getClass().getResource("/ioosSeries.xml").toURI()
+		println filePath
+		def seriesFile = new File(filePath);
+		if (seriesFile.exists()) seriesFile.delete()
 
-		def seriesFile = new File("ioos/ioosSeries.xml");
-		seriesFile.delete()
-
-		def seriesWriter = new SeriesWriter()
+		def seriesWriter = new SeriesWriter(seriesFile)
 		seriesWriter.writeHeader()
 
 		svcType = "SOS"
@@ -47,8 +48,7 @@ class RegistryIntegrationTest {
 		println "tds results size=" + results.size()
 		seriesWriter.writeFooter()
 
-		// Check content
-		seriesFile = new File("ioos/ioosSeries.xml");
+		// Check content		
 		assertTrue(seriesFile.length() > 0)
 	}
 }

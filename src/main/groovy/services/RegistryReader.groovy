@@ -26,6 +26,7 @@ public class RegistryReader {
 	public Map getServiceEndPoints(tableId, svcType, svcStatus) {
 
 		def urlStr = "https://www.google.com/fusiontables/api/query?sql=select%20*%20from%20" + tableId + "%20where%20svc_status%20%3D%20'" + svcStatus + "'%20AND%20svc_type%3D'" + svcType + "'"
+		println urlStr
 		def url = new URL(urlStr)
 
 		def csv = url.text
@@ -43,17 +44,20 @@ public class RegistryReader {
 		def endPointTitle
 		// Result variables
 		def endPoints = [:]
-
+				
 		int i = 0
 		rows.each { row ->
-
-			endPoint = URLEncoder.encode(row[SVC_ENDPOINT],"UTF-8")
-			endPointTitle = row[SVC_ENDPOINT_TITLE]
-			//Skip the first row because it contains the field headers.
-			if (i >= 1)	 {
-				endPoints.put(endPoint, endPointTitle)
-			}
+			try {
+				endPoint = URLEncoder.encode(row[SVC_ENDPOINT],"UTF-8")
+				endPointTitle = row[SVC_ENDPOINT_TITLE]
+				//Skip the first row because it contains the field headers.
+				if (i >= 1)	 {
+					endPoints.put(endPoint, endPointTitle)
+				}
 			i++
+			} catch (e) {
+			 	println "Row retrieval failed!!! on " + i
+			}
 		}
 		return endPoints
 
